@@ -21,7 +21,7 @@ Contiene información sobre cada principio activo en forma de materia prima.
 | TRUE | ID_API      | VARCHAR | TRUE     | TRUE   | 20  | LOTE INTERNO API              |
 |      | NOMBRE      | VARCHAR | TRUE     |        | 50  | NOMBRE DEL API               |
 |      | LOTE_MP     | VARCHAR | TRUE     |        | 20  | LOTE ORIGEN                  |
-|      | TITULO      | INT     | TRUE     |        |     | TITULO EN (SDTC) %           |
+|      | TITULO      | DEC     | TRUE     |        |(5,2)| TITULO EN (SDTC) %           |
 |      | VENCIMIENTO | DATE    | TRUE     |        |     | VENCIMIENTO PROVEEDOR         |
 |      | PROVEEDOR   | VARCHAR | TRUE     |        | 50  | NOMBRE DE PROVEEDOR           |
 |      | ORIGEN      | VARCHAR |          |        | 50  | PAÍS DE ORIGEN               |
@@ -34,10 +34,10 @@ Contiene información de los estándares primarios o secundarios.
 | TRUE | LOTE_STD       | VARCHAR | TRUE     | TRUE   | 20  | LOTE DEL ESTÁNDAR                                    |
 | FK   | ID_API         | VARCHAR |          |        | 20  | LOTE INTERNO DEL API PARA GENERACIÓN (APLICA SECUNDARIOS) |
 |      | PRESENTACION   | INT     | TRUE     |        |     | PRESENTACIÓN DE VIALES (mg)                          |
-|      | TITULO         | INT     | TRUE     |        |     | TITULO EN (SDTC) %                                   |
+|      | TITULO         | DEC     | TRUE     |        |(5,2)| TITULO EN (SDTC) %                                   |
 |      | VENCIMIENTO    | DATE    | TRUE     |        |     | VENCIMIENTO INTERNO                                  |
 |      | RENALISIS      | DATE    | TRUE     |        |     | REANÁLISIS INTERNO                                   |
-|      | OBSERVACIONES  | VARCHAR |          |        | 50  | DESCRIPCIÓN GENERAL DEL ESTÁNDAR                     |
+|      | OBSERVACIONES  | VARCHAR |          |        | 250  | DESCRIPCIÓN GENERAL DEL ESTÁNDAR                     |
 |      | CATEGORIA      | VARCHAR | TRUE     |        | 10  | PRIMARIO/SECUNDARIO/WORKING                          |
 |      | CANT_VIAL_TOTAL| INT     | TRUE     |        |     | CANTIDAD DE VIALES GENERADOS/COMPRADOS               |
 
@@ -68,7 +68,7 @@ Contiene información de los analistas.
 | FK   | ID_DEP          | VARCHAR | TRUE     | TRUE   | 5   | CÓDIGO INTERNO DE LOS DEPARTAMENTOS |
 |      | NOMBRE          | VARCHAR | TRUE     |        | 30  | NOMBRE DEL ANALISTA                 |
 |      | APELLIDO        | VARCHAR | TRUE     |        | 30  | APELLIDO DEL ANALISTA               |
-|      | DNI             | VARCHAR | TRUE     | TRUE   | 10  | DOCUMENTO DE IDENTIDAD DEL ANALISTA |
+|      | DNI             | INT     | TRUE     | TRUE   |     | DOCUMENTO DE IDENTIDAD DEL ANALISTA |
 
 ## Tabla PEDIDO
 Contiene información sobre los pedidos de estándares realizados por analistas de diferentes sectores.
@@ -88,3 +88,4 @@ Contiene información sobre el manejo de pedidos.
 | TRUE | ID_ORDEN    | INT     | TRUE     | TRUE   |     | ID QUE DERIBA EL ESTÁNDAR AL STOCK CORRESPONDIENTE|
 | FK   | ID_PEDIDO   | INT     | TRUE     | TRUE   |     | IDENTIFICACIÓN ÚNICA DEL PEDIDO (ORDEN)           |
 |      | FECHA       | DATE    | TRUE     |        |     | FECHA DE EJECUCIÓN DE LA ORDEN                    |
+|      | COMPLETO    | BOOLEAN | TRUE     |        |     | ESTADO DE LA ORDEN, DEFAULT FALSE                 |
