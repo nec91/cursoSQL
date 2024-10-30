@@ -1,70 +1,14 @@
 LOTE_STD;ID_API;PRESENTACION;TITULO;VENCIMIENTO;REANALISIS;OBSERVACIONES;CATERGORIA;CANT_VIAL_TOTAL
-0492-EIT-4FE-01/R2;4-((6.7-DIMETOXI-QUINOLIN-4-YL)OXI)FENILAMINA;100;98;15-jul-25;15-jul-25;IMPUREZA GENOTOXICA CABOZANTINIB;secundario;2
-0491-EIT-4FL-01/R1;4-Fluoroanilina;100;98,7;18-sept-24;18-sept-24;IMPUREZA GENOTOXICA CABOZANTINIB;secundario;1
-0498-ETI-ABP-02/R1;Ácido Bempedoico;500;99,8;31-mar-25;31-mar-25;;secundario;2
-0504-ETP-APX-03/R1;Apixaban;500;99,8;28-feb-25;28-feb-25;;secundario;1
-AA414;Aripiprazol;1000;99,9;25-nov-24;25-nov-24;;secundario;8
-ES-0004-00016;Atorvastatin Calcico Trihidrato;1000;99,8;31-ene-25;31-ene-25;;secundario;0
-ATORVASTATIN_CALC_ES-0004;Atorvastatin Calcico Trihidrato;1000;95,1;31-ene-25;31-ene-25;;secundario;4
-0516-ETI-BRE-01/R1;Brexipiprazol;500;99,7;31-oct-24;31-oct-24;A tener en cuenta 24 hs de estabilidad tienen los std para los ensayos.;secundario;4
-0533-ETP-BRT-02;Brivaracetam;500;99,8;30-sept-24;30-sept-24;;secundario;4
-AA401;Bupropion Clorhidrato;500;100;19-jul-24;19-jul-24;;secundario;3
-AA401;Bupropion Clorhidrato;1000;100;19-jul-24;19-jul-24;;secundario;5
-101642;Bupropion Clorhidrato;500;99,9;19-jul-27;19-jul-27;;secundario;4
-0549-ES-CHB-01;Buspirona HCl;500;99,7;31-may-25;31-may-25;pedir una etiqueta;secundario;3
-0476-ETP-CSM-02/R1;Cabozantinib;350;99,9;31-ago-24;31-ago-24;SE LE HACE HUMEDAD;secundario;5
-0537-ETP-CPC-02;Cariprazina;500;92;7-jul-25;7-jul-25;Pedir etiquetas del 26,27,28;secundario;5
-0514-ES-CEL-01;Celecoxib;500;99,8;6-nov-25;6-nov-25;;secundario;2
-0559-ETI-CNM-01;Cenobamato;500;99,2;31-oct-24;31-oct-24;;secundario;3
-101868;Clindamicina;500;829;9-oct-26;9-oct-26;Se le hace humedad;secundario;4
-0527-ETP-DAG-03;Dapagliflozina;300;99,5;17-nov-24;17-nov-24;Se le hace Humedad.;secundario;3
-ES-DUT-22RM03599;Dutasterida;1000;97,5;31-mar-25;31-mar-25;;secundario;2
-0495-ETP-DSS-02/R1;Dexlansoprazol sesquihidrato;500;97,5;30-jun-25;30-jun-25;;secundario;3
-0503-ES-DRP-01;Drospirenona;500;97,5;31-ago-24;31-ago-24;;secundario;2
-53786;Drospirenona;500;97,5;30-nov-24;30-nov-24;;secundario;1
-0510-ETI-EMP-01/R1;Empagliflozina;500;97,5;6-mar-26;6-mar-26;site V;secundario;8
-0560-ETI-EMG-01;Empagliflozina;500;97,5;30-nov-24;30-nov-24;site III;secundario;1
-AA402;Estradiol Hemihidrato;500;97,5;11-jul-24;11-jul-24;;secundario;0
-0453-ETI-ETB-01/R2;Etoricoxib;500;97,5;13-abr-25;13-abr-25;;secundario;7
-88971;Ezetimibe;500;97,5;4-dic-26;4-dic-26;;secundario;2
-0449-ES-FIS-02/R2;Fitosterol;500;97,5;7-ene-25;7-ene-25;;secundario;2
-202208082;Galato de propilo;500;97,5;26-ago-25;26-ago-25;Jiurui Biology y Chemistry CO;secundario;2
-73341;Glucosamina Clorhidrato;500;97,5;18-abr-26;18-abr-26;;secundario;3
-AA423;Hidroclorotiazida;500;97,5;23-may-25;23-may-25;;secundario;2
- AA417 ;Ketoconazol;500;97,5;26-ene-25;26-ene-25;;secundario;5
- AA417 ;Ketoconazol;500;97,5;26-ene-25;26-ene-25;;secundario;3
-0497-ETP-LVM-02/R2;Lenvatinib mesilato;500;97,5;6-nov-24;6-nov-24;;secundario;1
-LEVETIRACETAM ES-0004;Levetiracetam;500;97,5;15-nov-25;15-nov-25;;secundario;1
-AFOH004103;Levetiracetam;500;97,5;15-nov-25;15-nov-25;;secundario;2
-0500-ETP-LFD-02/R1;Lisdexanfetamina;500;97,5;10-jul-26;10-jul-26;Se le hace Humedad.;secundario;3
-0466-ETP-LUH-03/R1;Lurasidona;500;97,5;6-dic-24;6-dic-24;procos;secundario;3
-0525-ETI-LUC-01;Lurasidona;500;97,5;3-abr-25;3-abr-25;hetero;secundario;2
-0450-ETP-MAC-02/R2;Macitentan;500;97,5;21-ene-25;21-ene-25;;secundario;2
-0493-ES-MTH-01;Metformina Clorhidrato;500;97,5;27-oct-24;27-oct-24;;secundario;1
-0539-ES-MNG-01;Metformina Clorhidrato;500;97,5;15-ago-26;15-ago-26;;secundario;4
-74499;METILFENIDATO HCl;500;97,5;31-may-25;31-may-25;;secundario;1
-74499;METILFENIDATO HCl;500;97,5;31-may-25;31-may-25;;secundario;1
-0543-ES-MIG-01;Mirabegron;500;97,5;30-nov-24;30-nov-24;;secundario;1
-AA415;Naltrexona Clorhidrato;500;97,5;7-dic-24;7-dic-24;Se le hace humedad;secundario;5
-AA415;Naltrexona Clorhidrato;500;97,5;7-dic-24;7-dic-24;Se le hace humedad;secundario;5
-0455-ETP-NIE-02/R1;Nintedanib;500;97,5;16-nov-24;16-nov-24;;secundario;2
-0544-ETP-NIE-03;Nintedanib;500;97,5;24-oct-25;24-oct-25;;secundario;2
-0465-ETP-PBC-02/R1;Palbociclib;500;97,5;16-may-25;16-may-25;Se le hace humedad;secundario;4
-86297;Pantoprazol;500;97,5;25-oct-26;25-oct-26;;secundario;3
-PN23040099;Pantoprazol;500;97,5;21-abr-28;21-abr-28;;secundario;1
-0490-ETP-PNH-04/R2;Ponatinib;500;97,5;29-nov-24;29-nov-24;;secundario;2
-PREGABALINA_ES_0005;Pregabalina;500;97,5;30-jun-25;30-jun-25;;secundario;2
-AA407;Quetiapina Fumarato;500;97,5;23-sept-24;23-sept-24;;secundario;5
-92506;Rosuvastatina cálcica;500;97,5;31-ene-26;31-ene-26;CAJA 2;secundario;3
-0471-ETP-CRU-02/R2;Rucaparib;500;97,5;9-jul-25;9-jul-25;;secundario;5
-0477-ETP-SBS-02/R1;Sacubitrilo;500;97,5;30-abr-25;30-abr-25;Se le hace humedad (pesada para la humedad 80mg sino el RSD no siempre da bien y terminan gastando de mas;secundario;2
-96177;Sitagliptina;500;97,5;31-ene-25;31-ene-25;;secundario;5
-0494-ES-TCL-01;Tamsulosina;500;97,5;12-ene-25;12-ene-25;;secundario;2
-0444-ETP-TFC-03/R2;Tofacitinib;500;97,5;24-ene-25;24-ene-25;;secundario;3
-0522-ES-TRR-01;Tramadol;500;97,5;30-abr-25;30-abr-25;;secundario;5
-75203;Valsartan;500;97,5;31-ago-25;31-ago-25;Se le hace humedad (pesada para la humedad 80mg-200mg sino el RSD no siempre da bien y terminan gastando de mas;secundario;0
-79991;Valsartan;500;97,5;31-ago-25;31-ago-25;Se le hace humedad (pesada para la humedad 80mg-200mg sino el RSD no siempre da bien y terminan gastando de mas;secundario;2
-R07150;Vitamina D3;500;97,5;vigente USP;vigente USP;Pedir el día  de uso, std primario;secundario;10
-0556-ETI-VOF-01;Vonoprazan fumarato;500;97,5;30-nov-24;30-nov-24;Site III;secundario;2
-0505-ETI-VON-01/R1;Vonoprazan fumarato;500;97,5;31-dic-24;31-dic-24;site V;secundario;1
-0528-ETP-VTB-02;Vortioxetina;500;97,5;10-may-25;10-may-25;;secundario;3
+0498-ETI-ABP-02/R1;A6;500;99,8;2025-03-31;2025-03-31;;secundario;2
+ES-0004-00016;A2;1000;99,8;2025-01-31;2025-01-31;;secundario;0
+ATORVASTATIN_CALC_ES-0004;A2;1000;95,1;2025-01-31;2025-01-31;;secundario;4
+LEVETIRACETAM ES-0004;L1;500;97,5;2025-11-15;2025-11-15;;secundario;1
+AFOH004103;L1;500;97,5;2025-11-15;2025-11-15;;secundario;2
+0466-ETP-LUH-03/R1;L5;500;97,5;2024-12-06;2024-12-06;procos;secundario;3
+0525-ETI-LUC-01;L5;500;97,5;2025-04-03;2025-04-03;hetero;secundario;2
+0493-ES-MTH-01;M2;500;97,5;2024-10-27;2024-10-27;;secundario;1
+0539-ES-MNG-01;M2;500;97,5;2026-08-15;2026-08-15;;secundario;4
+AA415;N1;500;97,5;2024-12-07;2024-12-07;Se le hace humedad;secundario;5
+AA415;N1;500;97,5;2024-12-07;2024-12-07;Se le hace humedad;secundario;5
+0455-ETP-NIE-02/R1;N4;500;97,5;2024-11-16;2024-11-16;;secundario;2
+0544-ETP-NIE-03;N4;500;97,5;2025-10-24;2025-10-24;;secundario;2
