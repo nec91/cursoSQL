@@ -1,0 +1,83 @@
+id_api;nombre;lote_mp;titulo;vencimiento;proovedor;origen
+A1;Alogliptina Benzoato;MP1001;99.1;2024-05-05;Empresa1;taiwan
+A2;Atorvastatin Calcico Trihidrato;MP1002;99.1;2024-05-06;Empresa2;china
+A3;Azatioprina;MP1003;99.1;2024-05-07;Empresa3;japon
+A4;Amlodipina Besilato;MP1004;99.1;2024-05-08;Empresa4;india
+A5;Apixaban;MP1005;99.1;2024-05-09;Empresa5;taiwan
+A6;Ácido bempedoico;MP1006;99.1;2024-05-10;Empresa6;china
+A7;Aripiprazol;MP1007;99.1;2024-05-11;Empresa7;japon
+B1;Bicalutamida;MP1008;99.1;2024-05-12;Empresa8;india
+B2;Bupropion Clorhidrato;MP1009;99.1;2024-05-13;Empresa9;taiwan
+B3;Brivaracetam;MP1010;99.1;2024-05-14;Empresa10;china
+B4;Brexipiprazol;MP1011;99.1;2024-05-15;Empresa11;japon
+B5;Buspirona HCl;MP1012;99.1;2024-05-16;Empresa12;india
+C1;Canagliflozina;MP1013;99.1;2024-05-17;Empresa13;taiwan
+C2;Capecitabina;MP1014;99.1;2024-05-18;Empresa14;china
+C3 ;Cabozantinib;MP1015;99.1;2024-05-19;Empresa15;japon
+C4;Clindamicina;MP1016;99.1;2024-05-20;Empresa16;india
+C5;Celecoxib;MP1017;99.1;2024-05-21;Empresa17;taiwan
+C6;Cenobamato;MP1018;99.1;2024-05-22;Empresa18;china
+D1;Dasatinib;MP1019;99.1;2024-05-23;Empresa19;japon
+D2;Desvenlafaxina;MP1020;99.1;2024-05-24;Empresa20;india
+D3;Desvenlafaxina Succinato Monohidrato;MP1021;99.1;2024-05-25;Empresa21;taiwan
+D4;Dimetilfumarato;MP1022;99.2;2024-05-26;Empresa22;china
+D5;Donepezilo HCl;MP1023;99.2;2024-05-27;Empresa23;japon
+D6;Dutasterida;MP1024;99.2;2024-05-28;Empresa24;india
+D7;Dexlansoprazol;MP1025;99.2;2024-05-29;Empresa25;taiwan
+D8;Dapagliflozina;MP1026;99.2;2024-05-30;Empresa26;china
+D9;Drospirenona;MP1027;99.2;2024-05-31;Empresa27;japon
+E2;Etoricoxib;MP1028;99.2;2024-06-01;Empresa28;india
+E3;Ezetimibe;MP1029;99.2;2024-06-02;Empresa1;taiwan
+E4;Estradiol;MP1030;99.2;2024-06-03;Empresa2;china
+E5;Etinilestradiol;MP1031;99.2;2024-06-04;Empresa3;japon
+F1;Fampridina;MP1032;99.2;2024-06-05;Empresa4;india
+F2;Fitosterol;MP1033;99.2;2024-06-06;Empresa5;china
+F3;Fingolimod Clorhidrato;MP1034;99.2;2024-06-07;Empresa6;japon
+G1;Glucosamina Clorhidrato;MP1035;99.2;2024-06-08;Empresa7;india
+H1;Hidroclorotiazida;MP1036;99.2;2024-06-09;Empresa8;taiwan
+I1;Ibandronato monosodico monohidrato;MP1037;99.2;2024-06-10;Empresa9;china
+I2;Ibrutinib;MP1038;99.2;2024-06-11;Empresa10;japon
+I3;Idelalisib Monohidrato;MP1039;99.2;2024-06-12;Empresa11;india
+I4;Ivacaftor;MP1040;99.2;2024-06-13;Empresa12;taiwan
+L1;Levetiracetam;MP1041;99.2;2024-06-14;Empresa13;china
+L2;Linaclotide;MP1042;99.2;2024-06-15;Empresa14;japon
+L3;Lumacaftor;MP1043;99.2;2024-06-16;Empresa15;india
+L4;Lenvatinib mesilato;MP1044;99.3;2024-06-17;Empresa16;taiwan
+L5;Lurasidona;MP1045;99.3;2024-06-18;Empresa17;china
+L6;Lisdexanfetamina;MP1046;99.3;2024-06-19;Empresa18;japon
+M1;Memantine Clorhidrato;MP1047;99.3;2024-06-20;Empresa19;india
+M2;Metformina Clorhidrato;MP1048;99.3;2024-06-21;Empresa20;taiwan
+M3;Metilfenidato HCl;MP1049;99.3;2024-06-22;Empresa21;china
+M4;Modafinilo;MP1050;99.3;2024-06-23;Empresa22;japon
+M5;Macitentan;MP1051;99.3;2024-06-24;Empresa23;india
+M6;Metotrexato;MP1052;99.3;2024-06-25;Empresa24;taiwan
+M7;Mirabegron;MP1053;99.3;2024-06-26;Empresa25;china
+N1;Naltrexona Clorhidrato;MP1054;99.3;2024-06-27;Empresa26;japon
+N2;Nebivolol  Clorhidrato;MP1055;99.3;2024-06-28;Empresa27;india
+N3;Nomegestrol;MP1056;99.3;2024-06-29;Empresa28;taiwan
+N4;Nintedanib;MP1057;99.3;2024-06-30;Empresa1;china
+N5;Neratinib;MP1058;99.3;2024-07-01;Empresa2;japon
+O1;Oxicodona;MP1059;99.3;2024-07-02;Empresa3;china
+O2;Olmesartan;MP1060;99.3;2024-07-03;Empresa4;japon
+P1;Pirfenidona;MP1061;99.3;2024-07-04;Empresa5;india
+P2;Pregabalina;MP1062;99.3;2024-07-05;Empresa6;taiwan
+P3;Pantoprazol;MP1063;99.3;2024-07-06;Empresa7;china
+P4;Ponatinib;MP1064;99.3;2024-07-07;Empresa8;japon
+P5;Palbociclib;MP1065;99.3;2024-07-08;Empresa9;india
+P6;Pazopanib;MP1066;99.3;2024-07-09;Empresa10;taiwan
+Q1;Quetiapina Fumarato;MP1067;99.3;2024-07-10;Empresa11;china
+R1;Rivaroxaban;MP1068;99.3;2024-07-11;Empresa12;japon
+R2;Rosuvastatina cálcica;MP1069;99.3;2024-07-12;Empresa13;india
+R3;Rucaparib;MP1070;99.3;2024-07-13;Empresa14;taiwan
+S1;Sofosbuvir;MP1071;99.3;2024-07-14;Empresa15;china
+S2;Selexipag;MP1072;99.3;2024-07-15;Empresa16;japon
+S3;Sacubritil;MP1073;99.3;2024-07-16;Empresa17;india
+S4;Sitagliptina;MP1074;99.3;2024-07-17;Empresa18;taiwan
+T1;Tamsulosina HCl;MP1075;99.3;2024-07-18;Empresa19;china
+T2;Temozolamide;MP1076;99.3;2024-07-19;Empresa20;japon
+T3;Tramadol HCl;MP1077;99.4;2024-07-20;Empresa21;india
+T4;Tocoferol;MP1078;99.4;2024-07-21;Empresa22;taiwan
+T5;Tofacitinib;MP1079;99.4;2024-07-22;Empresa23;china
+T6;Tezacaftor;MP1080;99.4;2024-07-23;Empresa24;japon
+V1;Valsartan;MP1081;99.4;2024-07-24;Empresa25;india
+V2;Vildagliptina;MP1082;99.4;2024-07-25;Empresa26;taiwan
