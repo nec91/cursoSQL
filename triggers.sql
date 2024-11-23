@@ -36,4 +36,19 @@ END;
 
 DELIMITER ;
 
+-- Trigger que llama al store procedure "CompletarOrden", cada vez que se ejecute una orden para poder cambiar la columna "COMPLETO"
+
+DELIMITER //
+
+CREATE TRIGGER trg_CompletarOrden
+AFTER INSERT ON STOCK
+FOR EACH ROW
+BEGIN
+    -- Llamar al procedimiento almacenado para actualizar el estado en CARACTERIZACION_API
+    CALL sp_ActualizarEstadoCaracterizacion(NEW.ID_ORDEN);
+END//
+
+DELIMITER ;
+
+
 

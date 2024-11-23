@@ -28,21 +28,22 @@ JOIN
 	DEPARTAMENTO d ON a.ID_DEP = d.ID_DEP;  
    
 -- Listado de estandares con codigo, nombre y cantidad de viales
-    CREATE OR REPLACE VIEW view_estandares_disponibles AS
+CREATE OR REPLACE VIEW view_estandares_disponibles AS
 SELECT 
     a.ID_API,          
     a.NOMBRE,           
     e.LOTE_STD,
-	e.PRESENTACION,
-	e.CANT_VIAL_TOTAL,
+    e.PRESENTACION,
+    e.CANT_VIAL_TOTAL,
     e.VENCIMIENTO,
     e.REANALISIS
-    
 FROM 
     API a
 JOIN 
-    ESTANDAR e ON a.ID_API = e.ID_API;
-    
+    ESTANDAR e ON a.ID_API = e.ID_API
+WHERE 
+    e.CANT_VIAL_TOTAL > 0; -- Excluir registros con cantidad de viales igual a 0
+
     -- Listado de estandares asignados a un stock
 CREATE OR REPLACE VIEW view_stock_estandar AS
 SELECT 
@@ -76,22 +77,25 @@ INNER JOIN
     
     
     -- Muestra los estandares proximos a vencer en los proximos 30 dias
-    CREATE OR REPLACE VIEW view_estandares_proximos_vencer AS
+CREATE OR REPLACE VIEW view_estandares_proximos_vencer AS
 SELECT 
-    LOTE_STD,
-    ID_API,
-    PRESENTACION,
-    TITULO,
-    VENCIMIENTO,
-    DATEDIFF(VENCIMIENTO, CURDATE()) AS DiasParaVencimiento,
-    CANT_VIAL_TOTAL
+    e.LOTE_STD,
+    e.ID_API,
+    a.NOMBRE AS NOMBRE_API,
+    e.PRESENTACION,
+    e.TITULO,
+    e.VENCIMIENTO,
+    DATEDIFF(e.VENCIMIENTO, CURDATE()) AS 'Dias para Vencimiento',
+    e.CANT_VIAL_TOTAL
 FROM 
-    ESTANDAR
+    ESTANDAR e
+INNER JOIN 
+    API a ON e.ID_API = a.ID_API
 WHERE 
-    VENCIMIENTO <= DATE_ADD(CURDATE(), INTERVAL 30 DAY) -- Próximos 30 días
-    AND VENCIMIENTO >= CURDATE() -- Asegurar que no estén vencidos
+    e.VENCIMIENTO <= DATE_ADD(CURDATE(), INTERVAL 30 DAY) -- Próximos 30 días
+    AND e.VENCIMIENTO >= CURDATE() -- Asegurar que no estén vencidos
 ORDER BY 
-    VENCIMIENTO ASC;
+    e.VENCIMIENTO ASC;
     
     -- Muestra estandares agotados
     
