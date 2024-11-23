@@ -25,3 +25,10 @@ INSERT INTO analista (LEGAJO_ANALISTA, ID_DEP, NOMBRE, APELLIDO, DNI)
 		(3062, 'QC', 'Paula', 'Romero', 30002091),
 		(2954, 'ES', 'Emilio', 'Gutierrez', 30002214),
 		(3694, 'DA', 'Carolina', 'Mendoza', 30002337);
+        
+INSERT INTO ALMACENAMIENTO (ID_ALMACENAMIENTO, DESCRIPCION_ALM)
+	VALUES 
+		('1FRZ', 'Freezer'),
+        ('2HEL', 'Heladera'),
+        ('3TAM', 'Ambiente'),
+        ('4IMP', 'Impurezas');
